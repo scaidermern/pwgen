@@ -9,16 +9,16 @@ The password style is highly inspired by https://www.xkpasswd.net/
 Simply call the program to generate a list of secure, memorable passwords:
 ```
 $ ./pwgen 
-34|wheel!PERK!vans!NOWAY|90
-88~flute:SMUT:puck:DRAWS~62
-92!fail$SIRES$besot$BLAB!78
-37~klutz=PENAL=ewes=MOORS~40
-60:rondo+YORE+weft+SPIFF:67
-04*shams+ALIGN+lube+PESTO*53
-33^sedgy=GOLLY=scamp=SNUBS^33
-96+fitly%HOBBY%ferry%ESTER+54
-28~manly^MOREL^mane^LEAPS~46
-85:bark^SHADS^writ^MILCH:41
+%94*lung*HUMID*jolt*CHILL*21%
+&36:bleak:JAWS:attic:ALIAS:50&
++56*hull*PULP*pupil*MUSHY*99+
+#82#dizzy#TRACK#daily#GOON#78#
+!84!chili!PLUG!doze!CAGE!99!
+?30!armed!POPE!koala!STRAY!78?
+&92@anew@RALLY@wake@PANG@91&
+@52*amaze*GOES*brunt*KNELT*92@
+!94:rebel:WOVEN:candy:JAWS:59!
+*94&step&SHUSH&gooey&GLOSS&73*
 ```
 
 ## Options

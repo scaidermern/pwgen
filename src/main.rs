@@ -83,7 +83,7 @@ struct Cli {
         short = 's',
         long = "separator",
         value_name = "SEP",
-        default_value = "!@$%^&*+=:|~",
+        default_value = "@#&+*!?:%",
         value_parser = NonEmptyStringValueParser::new(),
     )]
     separator: String,
@@ -159,7 +159,7 @@ fn main() {
 
         // construct password
         let password = format!(
-            "{num_start:02}{sep_edge}{}{sep_edge}{num_end:02}",
+            "{sep_edge}{num_start:02}{sep_words}{}{sep_words}{num_end:02}{sep_edge}",
             words
                 .iter()
                 .enumerate()
